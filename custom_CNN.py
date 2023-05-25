@@ -91,4 +91,4 @@ performance = custom_CNN.fit(
     X_train, y_train, epochs = 3, validation_data = (X_valid, y_valid)
 )
 custom_CNN.save("models/custom_CNN")
-utils.plot_performance(performance, "custom_CNN_performance")
+utils.plot_performance(performance, "performance_plots/custom_CNN_performance")
